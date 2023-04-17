@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEM</title>
+</head>
+<body>
+<div class="menu">
+    <div class="menu__item">Public layer</div> 
+    <div class="menu__item">Private layer</div> 
+    <div class="menu__item">BasicAuth Guard</div> 
+    <div class="menu__item">HTTPS</div> 
+    <div class="menu__item">JBDC</div> 
+</div>
+
+<div class="block">
+    <div class="block__clients">
+        <div class="block__clients__client">Client</div>
+        <div class="block__clients__client">Client</div>
+        <div class="block__clients__client">Client</div>
+    </div>
+    <div class="block__Zuul">
+        <div class="block__Zuul__name">Zuul</div>
+        <div class="block__Zuul__gate">Gateway</div>
+    </div>
+    <div class="block__Eureka">
+        <div class="block__Eureka__name">Eureka<br>Discovery</div>
+        <div class="block__Eureka__serv">Server</div>
+    </div>
+    <div class="block__services">
+        <div class="block__services__service">Accommodation</div>
+        <div class="block__services__service">Auth</div>
+        <div class="block__services__service">Reservation</div>
+        <div class="block__services__service">User</div>
+    </div>
+</div>
+</body>
+</html>
